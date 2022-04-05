@@ -1,0 +1,46 @@
+TOOL RECOMMENDATIONS:
+ GitLens:
+ It's cool to see who wrote what code when
+ Notepad++:
+ General purpose notepad. Tries to be a built in very of the default Notepad
+ Has a lot of optional functionality and plugins that can make it anything up to a full IDE
+ JSONViewer plugin is useful
+ Can also show line endings (settings in View > Show Symbol)
+ A bit fiddly to set up a theme but is possible!
+ Ctrl + PageUp/PageDown          Switch between adjacent files
+ Ctrl + Shift + +/-              Zoom in and out (not inbuilt)
+ Ctrl + Shit + Alt + M           Format current file as JSON
+ Ctrl + Shift + E                Toggle folder as workspace view
+ Alt + Shift + D                 Move to other view
+ Alt + Right                     Focus on other view
+ SHAREX:
+ Good for quickly and easily taking screenshot and screen gif recordings
+ BE VERY CAREFUL WITH THE DEFAULT UPLOADING SETTINGS
+
+NON-KEYBOARD-SHORTCUT PRODUCTVITY
+ GIT ALIASING:
+ Open your gitconfig and add a section that looks like this:
+ [alias]
+     co = checkout
+     review = !git add . && git stash && git checkout $1 && git stash pop && :
+     
+ Inbuilt command: git config --global alias.co checkout
+ https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+ GOOGLE SEARCH:
+ "term"                            Definitely match the thing inside the ""
+ ATLASSIAN:
+ in PRs use the rhs bar view for everything
+ MOUSEPAD:
+ Two finger swipe to scroll
+ Two finger pinch to zoom in/out
+
+VIM:
+ :s/<pattern>/<replace>/g        Find and replace matches in current visual selection
+ WINDOWS:
+ Alt + Tab                       Change window (hold alt and press tab to cycle through)
+ WindowsKey + L                  Lock computer
+ WindowsKey + Arrow_keys         Arrange window split screen
+ WindowsKey                      Open start menu
+ PrintScreen                     Take a screenshot and put it on the clipboard
+ Shift + Movement                Select area of text
+ Ctrl + Shift + Movement         Switch lines of text
